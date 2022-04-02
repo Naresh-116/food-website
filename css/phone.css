@@ -1,0 +1,43 @@
+
+
+#navbar{
+    flex-direction: column;
+}
+
+#home
+
+{
+ padding:3px 68px;
+    height:370px;
+    /* flex-direction: column; */
+}
+
+#navbar ul li a{
+
+    font-size: 1rem;
+    padding: 0px;
+
+}
+
+
+#home::before
+{
+
+    height:280px;
+    flex-direction: column;
+}
+
+
+
+
+
+
+#services{
+    flex-direction: column;
+
+}
+
+#clients
+{
+    overflow :hidden;
+}

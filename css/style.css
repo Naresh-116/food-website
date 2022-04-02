@@ -1,0 +1,308 @@
+
+/* used to set default css */
+/* css reset */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;800&family=Varela+Round&display=swap');
+
+*{ 
+margin:0;
+padding:0;
+
+}
+
+/* css variables  */
+:root{
+    --navbar-height:59px;
+}
+
+/* navigation bar  */
+img{
+    height:160px;
+    width:257px;
+}
+/* #logo.imageclass{
+    /* height:100px;
+    width:257px; */
+html{
+    scroll-behavior: smooth;
+}
+
+
+#navbar{
+    position: sticky;
+   align-items: center;
+    display: flex;
+    
+
+
+}
+/* logo and image */
+
+
+/* list items */
+
+#logo img{
+     height:72px; 
+   
+    margin:-9px 30px;
+}
+
+#logo {
+    height:59px;
+    margin:10px 20px;
+}
+
+
+
+#navbar ul
+{
+    display: flex;
+}
+
+#navbar ul li
+{
+    /* display: flex; */
+
+    list-style:none;
+    font-size: 1.3rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+#navbar ul li a{
+    color:white;
+    font-size: 25px;
+    display:block;
+    padding:3px 22px;
+    border-radius:200px;
+    text-decoration: none;
+}
+
+#navbar::before{
+    position: sticky;
+    content:"";
+    background-color:black;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.4;
+}
+
+#navbar ul li a:hover
+{
+    /* display: flex; */
+color:black;
+background-color: aliceblue;
+   
+}
+
+
+/* home section edit */
+
+#home{
+
+    display:flex;
+    flex-direction: column;
+    padding:3px 200px;
+    justify-content: center;
+    align-items:center;
+    height: 939px;
+
+}
+
+#home::before{
+
+    content:"";
+    background: url('../pic.jpg') no-repeat center center/cover;
+    position:absolute;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    opacity:0.8;
+}
+
+/* utility class */
+#home h1{
+    color:white;
+    text-align:center;
+    font-family: 'Baloo 2', cursive;
+}
+
+#home p{
+    color:white;
+    text-align:center;
+    /* relative to parent it will set */
+    font-size: 1.5rem;
+    font-family: 'Baloo 2', cursive;
+}
+
+#services
+{
+    top:0px;
+    bottom:20px;
+    margin:30px;
+    display:flex;
+}
+
+
+
+
+#services .box p{
+    font-family: 'Baloo 2', cursive;
+  
+}
+
+#services .box img{
+height:160px;
+margin:auto;
+display:block;
+}
+
+
+
+#services .box{
+
+    border:2px solid brown;
+    border-radius: 28px;
+    margin:2px 55px;
+background-color: rgb(174, 197, 190);
+
+}
+/* client section */
+
+
+#client-section{
+    height:347px;
+
+}
+#client-section h1{
+    /* background-color: black; */
+    color: rgb(14, 13, 12);
+}
+
+#client-section::before{
+    content:"";
+    position:absolute;
+    background:url('../pizza.jpg');
+    width:100%;
+    height:54%;
+    z-index:-1;
+    opacity:0.7;
+    /* position: relative; */
+
+}
+
+
+#clients{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.client-item{
+    padding:34px;
+}
+
+
+
+/* contect  */
+#contact{
+    position:relative;
+}
+
+#contact::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity:0.7;
+    background:url('../contact.jpg') no-repeat center/cover;
+}
+
+/* footer */
+
+footer{
+    background:black;
+    color:white;
+    padding:10px;
+}
+
+#contact-box form{
+
+    width:30%;
+  
+}
+
+
+
+#contact-box form{
+
+    width:30%;
+  
+}
+
+#contact-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:35px;
+    font-family: 'Baloo 2', cursive;
+
+}
+#contact-box input, #contact-box textarea{
+    font-size: 1.1rem;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    width:100%;
+    padding:0.5rem;
+
+}
+
+
+
+
+
+
+.h-primary{
+    color: black;
+    font-size:3.8rem;
+    padding:12px;
+    margin:-21px 6px;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.h-primary center{
+    align-items: center;
+    justify-content: center;
+    font-size:3.8rem;
+    padding:12px;
+
+}
+
+.h-secondary{
+    font-size:3.8rem;
+    padding:12px;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.btn{
+    font-family: 'Baloo 2', cursive;
+    padding:6px 20px;
+    border:2px solid white;
+    background-color: blueviolet;
+    color:white;
+    margin:17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center{
+    font-family: 'Baloo 2', cursive;
+    text-align: center;
+    /* justify-content: center; */
+
+}
+
